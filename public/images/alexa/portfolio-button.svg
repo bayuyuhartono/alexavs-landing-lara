@@ -1,0 +1,25 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="375" height="86.2832" viewBox="0 0 375 86.2832" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Union" filter="url(#filter0_d_0_4)">
+<use xlink:href="#stroke0_0_4" fill="white" fill-opacity="0.2" shape-rendering="crispEdges"/>
+<mask id="stroke1_0_4" maskUnits="userSpaceOnUse" x="24" y="16" width="327" height="39" fill="black">
+<rect fill="white" x="24" y="16" width="327" height="39"/>
+<use xlink:href="#stroke0_0_4"/>
+</mask>
+<path d="M337.712 17.0029C344.518 17.1671 350 25.225 350 35.1416C350 45.0583 344.518 53.1151 337.712 53.2793V53.2832H37.2891V53.2793C30.4828 53.1158 25 45.0587 25 35.1416C25 25.2245 30.4828 17.1664 37.2891 17.0029V17H337.712V17.0029Z" stroke-width="2" stroke="white" style="mix-blend-mode:soft-light" shape-rendering="crispEdges" mask="url(#stroke1_0_4)"/>
+</g>
+<defs>
+<filter id="filter0_d_0_4" x="0" y="0" width="375" height="86.2832" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="20" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_4"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_4"/>
+<feBlend mode="normal" in="BackgroundImageFix" in2="effect1_dropShadow_0_4" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+</filter>
+<path id="stroke0_0_4" d="M337.712 17.0029C344.518 17.1671 350 25.225 350 35.1416C350 45.0583 344.518 53.1151 337.712 53.2793V53.2832H37.2891V53.2793C30.4828 53.1158 25 45.0587 25 35.1416C25 25.2245 30.4828 17.1664 37.2891 17.0029V17H337.712V17.0029Z"/>
+</defs>
+</svg>
