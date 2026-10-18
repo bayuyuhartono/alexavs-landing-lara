@@ -6,6 +6,7 @@
         <meta name="theme-color" content="#000000">
         <meta name="description" content="Alexa Visual — company profiles, film and storytelling, video production, event documentary, and live streaming.">
         <title>Alexa Visual — Film &amp; Production</title>
+        <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
         <link rel="preload" href="{{ asset('fonts/atkinson-mono-regular.ttf') }}" as="font" type="font/ttf" crossorigin>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
