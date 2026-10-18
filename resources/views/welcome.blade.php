@@ -72,8 +72,8 @@
                     <div class="flex flex-col items-start">
                         <h2>CONTACT US</h2>
                         <div class="contact-details flex flex-col gap-1.5">
-                            <a href="https://wa.me/6281615592989" target="_blank" rel="noopener noreferrer" class="hover:underline">0816 1559 2989</a>
-                            <a href="mailto:halo.alexavisual@gmail.com" class="hover:underline">halo.alexavisual@gmail.com</a>
+                            <a href="#" class="hover:underline">0816 1559 2989</a>
+                            <a href="#" class="hover:underline">halo.alexavisual@gmail.com</a>
                         </div>
                     </div>
                     <div><h2>OUR LOCATION</h2></div>
@@ -81,7 +81,7 @@
                 </div>
                 <nav class="footer-links flex flex-wrap items-center justify-center" aria-label="Ples Creative resources">
                     @foreach (['Directory', 'About us', 'Artist Resources', 'Newsroom', 'Topics', 'Jobs', 'Developers', 'Help', 'Legal', 'Privacy', 'Cookie Policy', 'Cookie Manager', 'Imprint', 'Charts', 'Transparency Reports'] as $label)
-                        <a href="https://plescreative.com" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:text-white/70">{{ $label }}</a>
+                        <a href="#" class="underline underline-offset-2 hover:text-white/70">{{ $label }}</a>
                         @unless ($loop->last)<span aria-hidden="true">·</span>@endunless
                     @endforeach
                 </nav>
