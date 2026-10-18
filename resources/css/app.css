@@ -101,3 +101,50 @@
     .contact-details { font-size: 13px; margin-top: 18px; }
     .footer-links { font-size: 9px; padding: 20px 24px; margin-top: 12px; }
 }
+
+.whatsapp-button {
+    position: fixed;
+    right: max(22px, env(safe-area-inset-right));
+    bottom: max(22px, env(safe-area-inset-bottom));
+    z-index: 40;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #ffffff30;
+    border-radius: 999px;
+    padding: 13px 19px;
+    background: #167c42;
+    color: white;
+    font: 600 13px/1.2 Arial, sans-serif;
+    box-shadow: 0 5px 24px #0006;
+    transition: background-color .2s;
+}
+.whatsapp-button:hover { background: #116535; }
+.whatsapp-button:focus-visible { outline: 2px solid #8cdda6; outline-offset: 4px; }
+.portfolio-page { font-family: Arial, Helvetica, sans-serif; color-scheme: dark; }
+.portfolio-page button, .portfolio-page select { cursor: pointer; }
+.portfolio-page :is(button, input, select):focus-visible { outline: 2px solid #aaa; outline-offset: 4px; }
+.portfolio-header { height: 76px; }
+.portfolio-brand { width: 116px; height: 38px; }
+.portfolio-brand img { width: 150px; height: auto; left: -16px; top: -67px; }
+.portfolio-layout { width: 100%; }
+.portfolio-banner { height: 194px; }
+.category-chip { background: #ffffff0d; color: #ffffffb0; }
+.category-chip:hover { background: #ffffff20; color: white; }
+.category-chip[aria-pressed='true'] { background: #f1f1f1; color: #111; }
+.portfolio-filters { scrollbar-width: thin; }
+.video-card[hidden], [data-empty-state][hidden] { display: none; }
+.video-card button:focus-visible { border-radius: 12px; }
+.video-dialog { width: min(1040px, calc(100% - 32px)); max-width: none; max-height: 92dvh; margin: auto; overflow-y: auto; }
+.video-dialog::backdrop { background: #000c; backdrop-filter: blur(6px); }
+html.video-is-open { overflow: hidden; }
+
+@media (max-width: 600px) {
+    .portfolio-header { height: auto; min-height: 72px; flex-wrap: wrap; gap: 8px; padding-top: 14px; padding-bottom: 14px; }
+    .portfolio-search { max-width: none; }
+    .portfolio-brand { width: 100px; height: 32px; }
+    .portfolio-brand img { width: 135px; top: -61px; }
+    .portfolio-banner { height: 174px; }
+    .whatsapp-button { right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); padding: 12px 15px; }
+    .video-dialog { width: calc(100% - 16px); }
+}

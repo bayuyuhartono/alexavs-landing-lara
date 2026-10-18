@@ -1,3 +1,5 @@
+import './portfolio.js';
+
 const pageShell = document.querySelector('.page-shell');
 
 if (pageShell) {
@@ -38,7 +40,7 @@ const animateScroll = (time) => {
 };
 
 window.addEventListener('wheel', (event) => {
-    if (reducedMotion.matches || !finePointer.matches || event.ctrlKey || event.metaKey || !event.cancelable || Math.abs(event.deltaX) > Math.abs(event.deltaY)) {
+    if (document.querySelector('dialog[open]') || reducedMotion.matches || !finePointer.matches || event.ctrlKey || event.metaKey || !event.cancelable || Math.abs(event.deltaX) > Math.abs(event.deltaY)) {
         return;
     }
 

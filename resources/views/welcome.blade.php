@@ -36,7 +36,7 @@
                         <li>Music Video</li>
                         <li>Podcast</li>
                     </ul>
-                    <a href="#portfolio" class="portfolio-link relative self-center text-center font-bold tracking-[1px] text-[#fef3f3] transition-[filter] hover:brightness-125">
+                    <a href="{{ route('portfolio') }}" class="portfolio-link relative self-center text-center font-bold tracking-[1px] text-[#fef3f3] transition-[filter] hover:brightness-125">
                         <img src="{{ asset('images/alexa/portfolio-button.svg') }}" alt="" width="375" height="86.2832" class="portfolio-decoration absolute max-w-none" aria-hidden="true">
                         <span class="relative">PORTOFOLIO</span>
                     </a>
@@ -57,9 +57,9 @@
                 </div>
                 <h2 id="partners-title" class="partners-title font-extrabold">PART OF<br>US</h2>
                 <div class="partner-grid grid grid-cols-3">
-                    <div class="partner-card relative overflow-hidden shadow-md"><img src="{{ asset('images/alexa/alexa-virtual-band.png') }}" alt="AVB — Alexa Visual Broadcast" class="absolute max-w-none" loading="lazy"></div>
-                    <div class="partner-card partner-rental relative overflow-hidden"><img src="{{ asset('images/alexa/lyn-rent.png') }}" alt="Lyn Rent — production equipment rental" class="absolute max-w-none" loading="lazy"></div>
-                    <div class="partner-card relative overflow-hidden"><img src="{{ asset('images/alexa/ples-creative.png') }}" alt="ALX VSL.ID — creative production" class="absolute max-w-none" loading="lazy"></div>
+                    <a href="https://www.instagram.com/alexavisualbroadcast/" target="_blank" rel="noopener noreferrer" aria-label="Alexa Visual Broadcast on Instagram (opens in a new tab)" class="partner-card relative overflow-hidden shadow-md transition-[filter] hover:brightness-125"><img src="{{ asset('images/alexa/alexa-virtual-band.png') }}" alt="AVB — Alexa Visual Broadcast" class="absolute max-w-none" loading="lazy"></a>
+                    <a href="https://www.instagram.com/lyn.rent/" target="_blank" rel="noopener noreferrer" aria-label="Lyn Rent on Instagram (opens in a new tab)" class="partner-card partner-rental relative overflow-hidden transition-[filter] hover:brightness-125"><img src="{{ asset('images/alexa/lyn-rent.png') }}" alt="Lyn Rent — production equipment rental" class="absolute max-w-none" loading="lazy"></a>
+                    <a href="https://www.instagram.com/alxvsl.id/" target="_blank" rel="noopener noreferrer" aria-label="ALXVSL.ID on Instagram (opens in a new tab)" class="partner-card relative overflow-hidden transition-[filter] hover:brightness-125"><img src="{{ asset('images/alexa/ples-creative.png') }}" alt="ALX VSL.ID — creative production" class="absolute max-w-none" loading="lazy"></a>
                 </div>
             </section>
 
@@ -87,5 +87,6 @@
                 </nav>
             </footer>
         </main>
+        <x-whatsapp />
     </body>
 </html>
