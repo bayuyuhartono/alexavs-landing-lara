@@ -13,7 +13,7 @@
         <a href="#services" class="skip-link">Skip to services</a>
         <main id="home" class="page-shell mx-auto overflow-clip">
             <section class="hero relative overflow-hidden" aria-label="Alexa Visual">
-                <img src="{{ asset('images/alexa/hero.png') }}" alt="Mining truck on location at sunset" width="1003" height="568" fetchpriority="high" class="absolute inset-0 size-full object-cover">
+                <img src="{{ asset('images/alexa/hero.gif') }}" alt="Mining truck on location at sunset" width="1003" height="568" fetchpriority="high" class="absolute inset-0 size-full object-cover">
                 <h1 class="hero-logo absolute overflow-hidden">
                     <span class="sr-only">Alexa Visual</span>
                     <img src="{{ asset('images/alexa/alexa-logo.png') }}" alt="" class="absolute max-w-none" width="414" height="535">
