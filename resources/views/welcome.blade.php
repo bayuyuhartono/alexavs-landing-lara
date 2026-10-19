@@ -68,7 +68,7 @@
                 <h2 id="contact-title" class="contact-title absolute font-bold">CONTACT<br>US</h2>
                 <div class="contact-actions absolute flex flex-col">
                     <a href="https://wa.me/6281615592989" target="_blank" rel="noopener noreferrer" class="contact-action contact-whatsapp rounded-full text-center font-bold transition-[filter] hover:brightness-110" aria-label="Chat with Alexa Visual on WhatsApp (opens in a new tab)">Whatsapp</a>
-                    <a href="https://www.instagram.com/alexavisualbroadcast/" target="_blank" rel="noopener noreferrer" class="contact-action contact-instagram rounded-full text-center font-bold transition-[filter] hover:brightness-110" aria-label="Alexa Visual on Instagram (opens in a new tab)">Instagram</a>
+                    <a href="https://www.instagram.com/alexavisual?srtk=MWJkY3kwMXJzaWV3bQ==" target="_blank" rel="noopener noreferrer" class="contact-action contact-instagram rounded-full text-center font-bold transition-[filter] hover:brightness-110" aria-label="Alexa Visual on Instagram (opens in a new tab)">Instagram</a>
                 </div>
             </footer>
         </main>
