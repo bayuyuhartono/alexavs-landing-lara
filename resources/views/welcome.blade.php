@@ -63,28 +63,13 @@
                 </div>
             </section>
 
-            <section id="portfolio" class="studio relative overflow-hidden" aria-label="Portfolio — behind the scenes at Alexa Visual" tabindex="-1">
-                <img src="{{ asset('images/alexa/studio.png') }}" alt="Camera operator filming in a purple-lit production studio" class="absolute max-w-none" loading="lazy">
-            </section>
-
-            <footer id="contact" class="contact-footer bg-[#252525]">
-                <div class="contact-grid grid grid-cols-3">
-                    <div class="flex flex-col items-start">
-                        <h2>CONTACT US</h2>
-                        <div class="contact-details flex flex-col gap-1.5">
-                            <a href="#" class="hover:underline">0816 1559 2989</a>
-                            <a href="#" class="hover:underline">halo.alexavisual@gmail.com</a>
-                        </div>
-                    </div>
-                    <div><h2>OUR LOCATION</h2></div>
-                    <div><h2>FOLLOW US</h2></div>
+            <footer id="contact" class="contact-footer relative isolate overflow-hidden" aria-labelledby="contact-title">
+                <img src="{{ asset('images/alexa/studio.png') }}" alt="" class="absolute inset-0 -z-10 size-full object-cover" loading="lazy">
+                <h2 id="contact-title" class="contact-title absolute font-bold">CONTACT<br>US</h2>
+                <div class="contact-actions absolute flex flex-col">
+                    <a href="https://wa.me/6281615592989" target="_blank" rel="noopener noreferrer" class="contact-action contact-whatsapp rounded-full text-center font-bold transition-[filter] hover:brightness-110" aria-label="Chat with Alexa Visual on WhatsApp (opens in a new tab)">Whatsapp</a>
+                    <a href="https://www.instagram.com/alexavisualbroadcast/" target="_blank" rel="noopener noreferrer" class="contact-action contact-instagram rounded-full text-center font-bold transition-[filter] hover:brightness-110" aria-label="Alexa Visual on Instagram (opens in a new tab)">Instagram</a>
                 </div>
-                <nav class="footer-links flex flex-wrap items-center justify-center" aria-label="Ples Creative resources">
-                    @foreach (['Directory', 'About us', 'Artist Resources', 'Newsroom', 'Topics', 'Jobs', 'Developers', 'Help', 'Legal', 'Privacy', 'Cookie Policy', 'Cookie Manager', 'Imprint', 'Charts', 'Transparency Reports'] as $label)
-                        <a href="#" class="underline underline-offset-2 hover:text-white/70">{{ $label }}</a>
-                        @unless ($loop->last)<span aria-hidden="true">·</span>@endunless
-                    @endforeach
-                </nav>
             </footer>
         </main>
         <x-whatsapp />
