@@ -2,6 +2,11 @@
 
 return [
 
+    'google' => [
+        'analytics_id' => env('GOOGLE_ANALYTICS_ID'),
+        'site_verification' => env('GOOGLE_SITE_VERIFICATION'),
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Third Party Services
