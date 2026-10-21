@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth motion-reduce:scroll-auto">
     <head>
-        <x-google-tags />
         <meta charset="utf-8">
+        <x-google-tags />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#000000">
-        <meta name="description" content="Alexa Visual — company profiles, film and storytelling, video production, event documentary, and live streaming.">
-        <title>Alexa Visual — Film &amp; Production</title>
+        <x-seo
+            :title="'Alexa Visual — Film & Video Production'"
+            description="Alexa Visual creates company profiles, films, video ads, music videos, event documentaries, and live streaming productions. Explore our work and contact our team."
+            page="home"
+        />
         <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
         <link rel="preload" href="{{ asset('fonts/atkinson-mono-regular.ttf') }}" as="font" type="font/ttf" crossorigin>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -17,7 +20,7 @@
             <section class="hero relative overflow-hidden" aria-label="Alexa Visual">
                 <img src="{{ asset('images/alexa/hero.gif') }}" alt="Mining truck on location at sunset" width="1003" height="568" fetchpriority="high" class="absolute inset-0 size-full object-cover">
                 <h1 class="hero-logo absolute overflow-hidden">
-                    <span class="sr-only">Alexa Visual</span>
+                    <span class="sr-only">Alexa Visual — Film &amp; Video Production</span>
                     <img src="{{ asset('images/alexa/alexa-logo.png') }}" alt="" class="absolute max-w-none" width="414" height="535">
                 </h1>
                 <a href="#services" aria-label="Explore our services" class="scroll-cue absolute bottom-0 left-1/2 flex -translate-x-1/2 items-end justify-center"><span class="block bg-[#d9d9d9]"></span></a>

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth motion-reduce:scroll-auto">
     <head>
-        <x-google-tags />
         <meta charset="utf-8">
+        <x-google-tags />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#0f0f0f">
-        <meta name="description" content="Watch the Alexa Visual portfolio. Explore company profiles, event films, music videos, short films, and series.">
-        <title>Portfolio — Alexa Visual</title>
+        <x-seo
+            title="Video Production Portfolio — Alexa Visual"
+            description="Watch Alexa Visual's video production portfolio: company profiles, event documentaries, music videos, short films, and series. Explore our selected work."
+            page="portfolio"
+        />
         <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
